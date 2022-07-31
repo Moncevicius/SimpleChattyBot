@@ -2,6 +2,8 @@
 
 https://hyperskill.org/projects/221
 
+https://hyperskill.org/profile/271391908
+
 ABOUT
 
 Here, at the beginning of your programmer’s path, creating a simple console chat bot will do wonders to
