@@ -1,6 +1,5 @@
 const input = require('sync-input');
 
-
 function greet(bot_name, birth_year) {
 	console.log("Hello! My name is " + bot_name + ".");
 	console.log("I was created in " + birth_year + ".");
@@ -30,7 +29,7 @@ function count() {
 
 	let number = Number(input());
 	let current = 0;
-
+	//loop until we count to user number
 	while (current <= number) {
 		console.log(current + " !");
 		current += 1;
@@ -45,6 +44,7 @@ function test() {
 	3. To determine the execution time of a program.
 	4. To interrupt the execution of a program.`);
 	let answer = input();
+	//loop until we get correct answer
 	while(answer != 2){
 		console.log("Please, try again.");
 		answer = input();
@@ -55,7 +55,7 @@ function end() {
 	console.log("Completed, have a nice day!");
 }
 
-
+//main part where magic happens
 greet('Aid', '2020')  // change it as you need
 remind_name();
 guess_age();
